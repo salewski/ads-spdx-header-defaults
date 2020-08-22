@@ -24,7 +24,13 @@
 * ads-spdx-header-defaults
 
   This just gives me a dedicated place from which to reference the [[https://spdx.dev/][SPDX]]
-  ("Software Package Data Exchange") headers I typically use in my programs.
+  ("Software Package Data Exchange") headers I typically use in my programs:
+
+  #+BEGIN_SRC sh
+# SPDX-FileCopyrightText: <text> © 2020 Alan D. Salewski <salewski@att.net> </text>
+#
+# SPDX-License-Identifier: GPL-2.0-or-later
+  #+END_SRC
 
   Note that there is also a GitHub Gist with this same content:
 
