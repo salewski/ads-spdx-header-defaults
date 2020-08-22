@@ -1,0 +1,37 @@
+# -*- org -*-
+
+# HINT: To expand all content:  C-u C-u C-u <TAB>   (invokes 'outline-show-all')
+
+#+STARTUP: hidestars oddeven lognotedone lognoteredeadline lognoterepeat
+
+#+PRIORITIES: 1 2 3 4 5
+
+# Note that "RESCHEDULE" is something of a "meta todo"; it's used for todos
+# that need to be rescheduled - a flag for additional planning work to be done
+# on that particular todo. Typical flow: TODO ==> RESCHEDULE ==> TODO
+
+#+SEQ_TODO: TODO(t!) IN_PROGRESS(p!) DELEGATED(D@/!) WAITING(w@/!) HOLD(h@/!) REOPENED(r@/!) RESCHEDULE(R@/!) | DONE(d@/!)
+#+SEQ_TODO: TENTATIVE(T@/!) TODO(t!) IN_PROGRESS(p!) DELEGATED(D@/!) WAITING(w@/!) HOLD(h@/!) REOPENED(r@/!) RESCHEDULE(R@/!) | DONE(d@/!)
+#+SEQ_TODO: | CANCELED(c@/!)
+#+SEQ_TODO: | SKIPPED(s@/!)
+
+#+DRAWERS: LOGBOOK PROPERTIES MISCNOTES
+
+#+TAGS:
+
+#+CATEGORY: personal
+
+* ads-spdx-header-defaults
+
+  This just gives me a dedicated place from which to reference the [[https://spdx.dev/][SPDX]]
+  ("Software Package Data Exchange") headers I typically use in my programs.
+
+  Note that there is also a GitHub Gist with this same content:
+
+      https://gist.github.com/salewski/44d7976d3d3551481323c6798f22c41f
+
+  The current repo is more handy for my day to day work, but having the Gist
+  allows the first five lines of content from the Gist to be visible on
+  [[https://github.com/salewski][my GitHub "Overview" page]], in one of my "Pinned" repo boxes. Although the
+  SPDX header lines appear truncated on the screen, the full content is
+  present, and you can copy the text directly from the "Pinned" box.
