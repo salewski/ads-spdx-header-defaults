@@ -28,7 +28,7 @@
 
   Note that there is also a GitHub Gist with this same content:
 
-      https://gist.github.com/salewski/44d7976d3d3551481323c6798f22c41f
+      + https://gist.github.com/salewski/44d7976d3d3551481323c6798f22c41f
 
   The current repo is more handy for my day to day work, but having the Gist
   allows the first five lines of content from the Gist to be visible on
