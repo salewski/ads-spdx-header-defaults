@@ -27,7 +27,7 @@
   ("Software Package Data Exchange") headers I typically use in my programs:
 
   #+BEGIN_SRC sh
-      # SPDX-FileCopyrightText: <text> © 2020 Alan D. Salewski <salewski@att.net> </text>
+      # SPDX-FileCopyrightText: <text> © 2022 Alan D. Salewski <ads@salewski.email> </text>
       #
       # SPDX-License-Identifier: GPL-2.0-or-later
   #+END_SRC
